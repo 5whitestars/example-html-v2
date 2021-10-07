@@ -7,8 +7,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Cabin&display=swap" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400' rel='stylesheet' type='text/css'>
 <style>
-/*
+
     body {
         background-color: darkslategray;
     }
@@ -17,14 +18,71 @@
         text-align: center;
         font-family: 'Barlow Condensed', sans-serif;
         font-size: 50pt;
+        margin-top: 0px;
+        padding-top: 0px;
+        top: 10%;
+        
     }
     nav {
-        align-items: center;
-        background-color:rgb(36, 143, 137);
-        display: block;
+        width: 100%;
+        margin: 0 auto;
+        background: darkslategray;
+        padding: 0px 0;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 30pt;
+    }
+    nav ul {
+        list-style: none;
         text-align: center;
-        padding: 14px 16px;
-        text-decoration-color: black;
+    }
+    nav ul li {
+        display: inline-block;
+    }
+    nav ul li a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        color: white;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin: 0 10px;
+    }
+    nav ul li a,
+    nav ul li a:after,
+    nav ul li a:before {
+        transition: all .5s;
+    }
+    nav ul li a:hover {
+        color: #555;
+    }
+    nav.shift ul li a {
+        position:relative;
+        z-index: 1;
+    }
+    nav.shift ul li a:hover {
+        color:whitesmoke;
+    }
+    nav.shift ul li a:after {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 100%;
+        height: 1px;
+        content: '.';
+        color: transparent;
+        background: grey;
+        visibility: none;
+        opacity: 0;
+        z-index: -1;
+    }
+    nav.shift ul li a:hover:after {
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
     }
     img {
         width: 300px;
@@ -38,14 +96,20 @@
         width: 50%;
         height: 50%;
     }
-*/
+
 
 </style>
 
-<nav>
-    <a href="avi.html">Avi</a>
-    <a href="sherlyn.html">Sherlyn</a>
-</nav>
+<nav class="shift">
+    <ul>
+      <li><a href="avi.html">Avi</a></li>
+      <li><a href="sherlyn.html">Sherlyn</a></li>
+      <li><a href="ram.html">Ram</a></li>
+      <li><a href="diane.html">Diane</a></li>
+      <li><a href="val.html">Val</a></li>
+      <li><a href="ashley.html">Ashley</a></li>
+    </ul>
+  </nav>
 
 </head>
 
