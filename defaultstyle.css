@@ -1,78 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Cabin&display=swap");
+
 body {
-    background-color: darkslategray;
+  background-color: darkslategray;
 }
 h1 {
-    color: darkturquoise;
-    text-align: center;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 50pt;
+  color: darkturquoise;
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 50pt;
+  margin-top: 0px;
+  padding-top: 0px;
+  position: relative;
 }
 h2 {
-    color: rgb(14, 246, 250);
-    text-align: center;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 30pt; 
+  color: rgb(14, 246, 250);
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 30pt;
 }
+
 nav {
-    align-items: center;
-    background-color:rgb(36, 143, 137);
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration-color: black;
+  align-items: center;
+  background-color: rgb(36, 143, 137);
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration-color: black;
 }
+
 img {
-    width: 300px;
-    height: auto;
-    align-content: center;
+  width: 300px;
+  height: auto;
+  align-content: center;
 }
 .center {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
 }
 p {
-    text-align: center;
-    color: yellow;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: yellow;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: right;
-    font-style: normal;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: block;
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: normal;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: block;
 }
 
 q {
-    display: block;
-    color: yellow;
-    width: 45%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: block;
+  color: yellow;
+  width: 45%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .citequote {
-    display: block;
-    color: yellow;
-    width: 10%;
-    padding-left: 15px;
-    margin-left: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: block;
+  color: yellow;
+  width: 10%;
+  padding-left: 15px;
+  margin-left: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .float {
-    display: block;
-    color: yellow;
-    width: 45%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+  display: block;
+  color: yellow;
+  width: 45%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
