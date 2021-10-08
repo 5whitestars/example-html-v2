@@ -17,6 +17,10 @@ h2 {
   text-align: center;
   font-family: "Barlow Condensed", sans-serif;
   font-size: 30pt;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  float: center;
+
 }
 
 nav {
@@ -32,6 +36,8 @@ img {
   width: 300px;
   height: auto;
   align-content: center;
+  float: right;
+  margin-bottom: 20px;
 }
 .center {
   display: block;
@@ -50,7 +56,7 @@ aside {
   width: 30%;
   padding-left: 15px;
   margin-left: 15px;
-  float: right;
+  float: left;
   font-style: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   display: block;
@@ -83,4 +89,30 @@ q {
   margin-left: 15px;
   float: left;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+article {
+  float: center;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  margin-left: 15px;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+
+hr {
+  float: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+h3 {
+  color: rgb(14, 246, 250);
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 24pt;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  float: center;
 }
