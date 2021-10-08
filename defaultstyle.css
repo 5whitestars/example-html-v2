@@ -84,3 +84,13 @@ q {
   float: left;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
+article {
+  display: block;
+  color: yellow;
+  width: 45%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
